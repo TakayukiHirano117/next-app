@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Header () {
   return (
-    <header className="w-60 border-slate-300 border-solid  border-r h-screen flex flex-column">
+    <header className="w-64 border-slate-300 border-solid  border-r h-screen flex flex-column sticky top-0 ">
       <div className="sidebar-items">
         <div className="mt-6">
           {/* ロゴ画像 */}
